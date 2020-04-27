@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>On Pace Calculator</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+<div class="container">
+  <div class="jumbotron">
+  <h1 class="display-4">On Pace Calculator</h1>
+  <p class="lead">Calculator to determine what an end of season statistic will be if a player continues on their current pace.</p>
+  <p class = "lead"><i>Ex. If a baseball player has hit 5 homeruns through the first 45 games of an MLB season of 162 games. The player will be on pace to finish the season with 18 homeruns.</i></p>
+  <hr class="my-4">
+  <form id="myForm" class="" action="index.html" method="post">
+    <label for="current_total">Current Total:</label>
+    <br>
+    <input type="number" id = "current_total" name="ct" value="" required>
+    <br>
+    <label for="games_played">Total Amount of Games Played:</label>
+    <br>
+    <input type="number" id = "games_played" name="gp" value="" required>
+    <br>
+    <label for="games_in_season">Total Games In Season:</label>
+    <br>
+    <input type="number" id="games_in_season" name="tg" value="" placeholder="162" required>
+    <label for="games_in_season"><i>Ex. MLB: 162, NBA: 82, NFL: 16, NHL: 82</i></label>
+    <br>
+    <input type="submit" value="Submit">
+    <button  id = "reset" type="reset" name="Reset">Reset</button>
+
+    <br>
+
+    <br>
+
+    <label for="answer">Projected Total:</label>
+    <br>
+    <input type="text" id = "answer" name="ans" value="" readonly>
+    <br>
+
+
+  </form>
+  </div>
+</div>
+
+  </body>
+  <script src="on_pace.js">
+  </script>
+</html>

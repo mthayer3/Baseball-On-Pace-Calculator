@@ -1,0 +1,36 @@
+h1 {
+   color: #fca311; 
+}
+
+input[type=submit], #reset {
+  width: 18%;
+  /* background-color: #4CAF50; */
+  background-color: #3a506b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* #reset {
+  width: 18%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+} */
+
+input[type=submit]:hover {
+  background-color: #1c2541;
+}
+
+#reset:hover {
+  background-color: #1c2541;
+}
